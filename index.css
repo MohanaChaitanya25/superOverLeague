@@ -1,0 +1,45 @@
+/* Write your code here. */
+
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.superOverLeagueApp-bg-container {
+  height: 100vh;
+  background-color: #0f172a;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.superOverLeagueApp-heading {
+  font-family: "Roboto";
+  color: #fff;
+}
+
+.team-images-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  align-items: center;
+}
+
+.logo-image {
+  height: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .logo-image {
+    height: 300px;
+  }
+
+  .superOverLeagueApp-heading {
+    font-size: 42px;
+  }
+}
